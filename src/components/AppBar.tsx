@@ -79,15 +79,7 @@ export const AppBar: FC = (props) => {
           <Link href="/">
             <a className="mr-8">Token Creator</a>
           </Link>
-          <Link href="/update">
-            <a className="mr-4">Update Metadata</a>
-          </Link>
-          <Link href="/uploader">
-            <a className="mr-8">Upload Metadata</a>
-          </Link>
-          <Link href="/metadata">
-            <a className="mr-4">Token Metadata</a>
-          </Link>
+        
           <div className="dropdown">
             <div tabIndex={0} className="btn btn-square btn-ghost text-right">
               <svg
